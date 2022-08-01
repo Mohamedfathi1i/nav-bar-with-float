@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>M.Fathi</title>
+    </head>
+    <body>
+
+            <div class="nav">
+                <h2><a href="#" class="logo"> <img src="assets/img/logo.png"> </a></h2>
+                <ul>
+                    <li><a href="#" class="active">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">serv</a></li>
+                    <li><a href="#">contact</a></li>
+                    <li><a href="#">serv</a></li>
+                    <li><a href="#">contact</a></li>
+
+                </ul> 
+                <label id="icon"><i class="fas fa-bars"></i></label>
+            </div>
+            <div class="clear"></div><!-- clear -->
+
+            <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+            <script>
+                $(document).ready(function(){
+                    $('#icon').click(function(){
+                        $('ul').toggleClass('show');
+                    })
+                });
+            </script>
+    </body>
+</html>
